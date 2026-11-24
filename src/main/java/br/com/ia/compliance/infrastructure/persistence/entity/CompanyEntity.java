@@ -28,7 +28,7 @@ public class CompanyEntity {
         return new CompanyEntity(
                 company.getId().id(),
                 company.getName(),
-                company.getRegistrationName(),
+                company.getRegistrationNumber(),
                 company.getRiskAssessment().orElse(null));
     }
 
