@@ -1,0 +1,15 @@
+package br.com.ia.compliance.domain;
+
+import lombok.AllArgsConstructor;
+import lombok.Getter;
+
+import java.util.Optional;
+
+@Getter
+@AllArgsConstructor
+public class Company {
+    private CompanyId id;
+    private String name;
+    private String registrationName;
+    private Optional<RiskAssessment> riskAssessment;
+}
