@@ -10,6 +10,6 @@ import java.util.Optional;
 public class Company {
     private CompanyId id;
     private String name;
-    private String registrationName;
+    private String registrationNumber;
     private Optional<RiskAssessment> riskAssessment;
 }
